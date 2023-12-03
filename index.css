@@ -1,0 +1,51 @@
+/* Styles pour la section principale */
+.stl_section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.stl_layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stl_title--2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.mw-800 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styles pour la carte de France */
+.stl_section-carte-france {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stl_select-wrapper {
+  margin-bottom: 20px;
+}
+
+.stl_select {
+  padding: 10px;
+  font-size: 1em;
+}
+
+/* Styles pour les résultats */
+.resultat, .stl_section-carte-france, p, h2 {
+  text-align: center;
+}
+
+.stl_title--3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 1em;
+  color: #555;
+}
